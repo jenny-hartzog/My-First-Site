@@ -1,0 +1,173 @@
+/*     ***** html ELEMENTS *****     */
+body {
+    background-color: #FFFBEB;
+    color: #40514E;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    text-align:center;
+     
+}
+
+h1 {
+   color: #66BFBF;
+   font-family: 'Sacramento', cursive;
+   font-size: 5.625rem;
+   margin: 50px auto 0 auto;
+}
+
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border: none;
+    border-top: 5px dotted #febbcd;
+    margin: 100px auto;
+    width: 3%;
+}
+
+#pro {
+    text-decoration: underline;
+}
+
+.hello-text {
+    text-align: center;
+    line-height: 2;
+    margin: 0 auto 75px auto;
+    width: 30%;
+}
+
+.my-skills {
+    margin-top: 100px;
+}
+/*    *********** CONTAINERS **********   */
+.top-container {
+    background-color:#ECF9FF;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    background-color: #FFFBEB;
+    margin: 100px 0;
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+    font-family: 'Montserrat', sans-serif;
+    padding: 50px 0 20px;
+}
+
+/*     ********** FOOTER and CONTACT **********     */
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFBEB;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+      
+.btn:hover {
+    background: #febbcd;
+    background-image: -webkit-linear-gradient(top, #febbcd,  #fcd4e0);
+    background-image: -moz-linear-gradient(top, #febbcd,  #fcd4e0);
+    background-image: -ms-linear-gradient(top, #febbcd,  #fcd4e0);
+    background-image: -o-linear-gradient(top, #febbcd,  #fcd4e0);
+    background-image: linear-gradient(to bottom, #febbcd,  #fcd4e0);
+    text-decoration: none;
+}
+
+.contact-me {
+    background-color: #FFFBEB;
+}
+
+.contact-text {
+    text-align: center;
+    line-height: 2;
+    margin: 40px auto 60px;
+    width: 40%;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: .75em;
+    padding: 20px 0;
+}
+
+.footer-link {
+    color: #11999E;
+    text-decoration: none;
+    margin: 25px;
+    padding: 25px;
+}
+.footer-link:hover {
+    color:#febbcd
+}
+.get-in-touch {
+    margin-top: 75px;
+}
+/* ************ IMAGES ************* */
+.top-cloud {
+    position: absolute;
+    right: 100px;
+    top: 25px;
+    
+}
+
+.mountain {
+   margin-top: 50px;
+   position: relative;
+   top: 20px; 
+   width: 40%;
+
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 150px;
+}
+
+.skill-row {
+    line-height: 2;
+    margin: 100px auto;
+    text-align: left;
+    width: 50%;
+}
+
+.headshot {
+    margin: 0 auto 0 auto;
+    height: 200px;
+    width: 200px;
+}
+
+.skill-img {
+    float: left;
+    padding-right: 30px;
+    width: 25%;
+}
+
+.skill-img-2 {
+    float: right;
+    padding-left: 30px;
+    width: 25%;
+}
+
